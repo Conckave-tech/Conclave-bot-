@@ -1,3 +1,0 @@
-if (!global.BOT_ACTIVE && !isOwner(...)) {
-    return;
-}
