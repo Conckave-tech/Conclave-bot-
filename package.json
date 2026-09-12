@@ -1,0 +1,23 @@
+{
+  "name": "hodekai-bot",
+  "version": "6.0.0",
+  "description": "Hodekai — Conclave WhatsApp economy/moderation bot",
+  "main": "hodekai-v6.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node hodekai-v6.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@distube/ytdl-core": "^4.14.4",
+    "yt-search": "^2.10.4",
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "pino": "^9.2.0",
+    "sharp": "^0.33.4",
+    "wa-sticker-formatter": "^4.4.0"
+  }
+}
